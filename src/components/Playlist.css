@@ -1,0 +1,42 @@
+/* src/components/Playlist.css */
+.playlist {
+    background-color: #202030; /* Adjust to match design */
+    border-radius: 12px; /* Rounded corners */
+    overflow: hidden;
+    margin: 15px;
+    width: 300px; /* Adjust width as per design */
+    color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add subtle shadow */
+}
+
+.playlist-thumbnail {
+    height: 180px; /* Adjust thumbnail height */
+    background-color: #444;
+    background-image: url('https://via.placeholder.com/150'); /* Placeholder image */
+    background-size: cover;
+    background-position: center;
+}
+
+.playlist-info {
+    padding: 15px;
+}
+
+.playlist-info h3 {
+    margin: 0;
+    font-size: 20px; /* Adjust font size */
+    font-weight: bold;
+}
+
+.playlist-info p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #AAAAAA; /* Adjust text color */
+}
+
+.interactive-element {
+    transition: all 0.3s ease;
+}
+
+.interactive-element:hover {
+    transform: scale(1.05);
+}

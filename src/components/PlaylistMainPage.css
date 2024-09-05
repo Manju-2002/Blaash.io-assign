@@ -1,0 +1,14 @@
+/* src/components/PlaylistMainPage.css */
+.playlist-main-page {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.interactive-element {
+    transition: all 0.3s ease;
+}
+
+.interactive-element:hover {
+    transform: scale(1.05);
+}

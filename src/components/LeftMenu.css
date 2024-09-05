@@ -1,0 +1,40 @@
+/* src/components/LeftMenu.css */
+.left-menu {
+    width: 240px; /* Adjust width as per design */
+    background-color: #151522; /* Match Figma background color */
+    color: #FFFFFF; /* Text color */
+    padding: 25px; /* Adjust padding */
+    height: 100vh;
+    font-family: 'Roboto', sans-serif; /* Ensure correct font */
+}
+
+.left-menu .logo {
+    font-size: 28px; /* Adjust logo size */
+    margin-bottom: 50px; /* Spacing below the logo */
+    font-weight: bold; /* Ensure bold text */
+}
+
+.left-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.left-menu ul li {
+    margin: 20px 0;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px; /* Adjust font size */
+    color: #CCCCCC; /* Light gray text */
+    transition: background-color 0.3s ease; /* Add transition */
+}
+
+.left-menu ul li.active {
+    background-color: #2A2A40;
+    border-radius: 8px;
+    color: #FFFFFF; /* Active item text color */
+}
+
+.left-menu ul li.active ul li {
+    color: #FFFFFF; /* Submenu item color */
+}
